@@ -27,7 +27,10 @@ int w_ancho = 1000, w_alto = 1000;
 
 int visualiza = VER_NADA;
 int win1;
+#pragma clang diagnostic push
+#pragma ide diagnostic ignored "OCUnusedGlobalDeclarationInspection"
 int menu1, menu2, menu3;
+#pragma clang diagnostic pop
 
 void InitGlew() {
     GLenum glew_init = glewInit();
